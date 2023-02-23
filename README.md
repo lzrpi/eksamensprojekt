@@ -13,13 +13,15 @@ Afleveres d. 4. Maj 2023
 ## Projektstyring 
 
 ### Done 
+[x] Læst op på opgavenes kriterier og omfang 
 
 ### In progress 
 [ ] Brainstorm over valg af projekt 
-[ ] Læst op på opgavenes kriterier og omfang 
 
 ### Todo
-
-### Icebox 
-[ ] Oplæsning på diverse programmeringsprog ifht. projektet 
 [ ] Opdelt og uddeligeret arbejdsopgaver 
+[ ] Oplæsning på diverse programmeringsprog ifht. projektet 
+[ ] Skrive projektbeskrivelse 
+[ ] Skrive synopsis 
+[ ] Udvikle produktet
+### Icebox 
