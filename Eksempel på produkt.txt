@@ -1,0 +1,40 @@
+Vælg et emne 
+
+1. Strøm og energi 
+
+2. Termodynamik 
+
+3. Mekanik - Bevægelse 
+
+
+Du har valgt emne 1 
+
+Hvilken værdi vil du finde? 
+
+Resistens: R
+
+Spændningsforskel: U 
+
+Strømstyrke: I 
+
+Du vil finde Resisten R 
+Indtast 
+
+Spændningsforskel: U 
+
+Strømstyrke: I 
+
+U = 50 V
+I = 0.5 A
+
+(Beregnings del) 
+
+R=100 ohm 
+
+Dette er fundet ud fra ohms lov U=R*I
+Isoleret for R 
+R=U/I 
+Kendte værdier 
+R=50 v / 0.5 A
+
+Tast () for at komme tilbage til forsiden. 
