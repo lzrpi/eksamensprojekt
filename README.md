@@ -17,10 +17,10 @@ Afleveres d. 4. Maj 2023
 
 ### In progress 
 [ ] Brainstorm over valg af projekt 
+[ ] Oplæsning på diverse programmeringsprog ifht. projektet 
 
 ### Todo
 [ ] Opdelt og uddeligeret arbejdsopgaver 
-[ ] Oplæsning på diverse programmeringsprog ifht. projektet 
 [ ] Skrive projektbeskrivelse 
 [ ] Skrive synopsis 
 [ ] Udvikle produktet
