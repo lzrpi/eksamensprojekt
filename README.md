@@ -14,9 +14,9 @@ Afleveres d. 4. Maj 2023
 
 ### Done 
 [x] Læst op på opgavenes kriterier og omfang 
+[x] Brainstorm over valg af projekt 
 
 ### In progress 
-[ ] Brainstorm over valg af projekt 
 [ ] Oplæsning på diverse programmeringsprog ifht. projektet 
 
 ### Todo
