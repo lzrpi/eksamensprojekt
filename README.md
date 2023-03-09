@@ -20,8 +20,8 @@ Afleveres d. 4. Maj 2023
 [ ] Oplæsning på diverse programmeringsprog ifht. projektet 
 
 ### Todo
-[ ] Opdelt og uddeligeret arbejdsopgaver 
 [ ] Skrive projektbeskrivelse 
+[ ] Opdelt og uddeligeret arbejdsopgaver 
 [ ] Skrive synopsis 
 [ ] Udvikle produktet
 [ ] Hvilke formler vil vi bruge 
