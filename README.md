@@ -15,16 +15,16 @@ Afleveres d. 4. Maj 2023
 ### Done 
 [x] Læst op på opgavenes kriterier og omfang 
 [x] Brainstorm over valg af projekt 
+[ ] Hvilke formler vil vi bruge 
+[ ] Matematik modul skal læses om
 
 ### In progress 
 [ ] Oplæsning på diverse programmeringsprog ifht. projektet 
+[ ] Menu delen skal lægges an 
 
 ### Todo
-[ ] Skrive projektbeskrivelse 
 [ ] Opdelt og uddeligeret arbejdsopgaver 
+[ ] Skrive projektbeskrivelse 
 [ ] Skrive synopsis 
 [ ] Udvikle produktet
-[ ] Hvilke formler vil vi bruge 
-[ ] Menu delen skal lægges an 
-[ ] Matematik modul skal læses om
 ### Icebox 
