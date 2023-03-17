@@ -23,24 +23,35 @@ if emne_valg == '1':
 if emne_valg == '2':
     print("Hvilken værdi vil du gerne finde?")
     print("")
-    print("Tryk i væske: P")
-    print("Densitet af væske: rho")
-    print("Højden af væske søjlen: h")
-    print("Alment tryk: P")
-    print("Volumen: V")
-    print("Stofmængde: N")
-    print("Temperatur: T")
-    print("Opdrift: F")
+    print("1. Tryk i væske (P)")
+    print("2. Densitet af væske (rho)")
+    print("3. Højden af væske søjlen (h)")
+    print("4. Alment tryk (P)")
+    print("5. Volumen (V)")
+    print("6. Stofmængde (N)")
+    print("7. Temperatur (T)")
+    print("8. Opdrift (F)")
     værdi_termo = input()
-    if værdi_termo == 'P':
+    if værdi_termo == '1':
+        print("Tryk i væske (p) er fundet ved at gøre brug af følgende formel p=rho*g*h")
         print("Indtast nu dine kendte værdier") 
         print("Densitet(rho)")
         Densitet=input()
         print("højden (h)")
         Højde=input()
-        tryk_væske=int(Højde)*int(Densitet)*9.82
-        print(tryk_væske)
-
+        tryk_væske=float(Højde)*float(Densitet)*9.82
+        print("Beregningen ser ud som følgende p = " + str(Højde) + " m * " + str(Densitet) + " kg/m^3 * " + "9.82 N/kg")
+        print("Tryk i væske (p) bliver dermed: " + str(tryk_væske) + " Pa")
+    if værdi_termo == '2':
+        print("For at finde rho er rho isoleret i følgende formel p=rho*g*h")
+        print("Den isolerede formel ser ud som følgende: rho=P/g*h")
+        print("Indtast nu dine kendte værdier")
+        print("Tryk i væsken (P)")
+        tryk_væske=input() 
+        print("højden (h)")
+        højde=input()
+        densitet=float(tryk_væske) / 9.82 * float(højde)
+        print("Beregningen ser ud som følgende rho= " + str(tryk_væske)+ " Pa / 9.82 N/kg * " + str(højde) + " m")
 
 else:
     exit()
