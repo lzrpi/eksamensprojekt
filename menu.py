@@ -52,6 +52,7 @@ if emne_valg == '2':
         højde=input()
         densitet=float(tryk_væske) / 9.82 * float(højde)
         print("Beregningen ser ud som følgende rho= " + str(tryk_væske)+ " Pa / 9.82 N/kg * " + str(højde) + " m")
+        print("Densiteten i væsken bliver dermed " + str(densitet) + " kg/m^3")
 
 else:
     exit()
