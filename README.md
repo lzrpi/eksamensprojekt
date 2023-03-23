@@ -15,9 +15,10 @@ Afleveres d. 4. Maj 2023
 ### Done 
 [x] Læst op på opgavenes kriterier og omfang 
 [x] Brainstorm over valg af projekt 
-[ ] Hvilke formler vil vi bruge 
-[ ] Matematik modul skal læses om
+[x] Hvilke formler vil vi bruge 
+[x] Matematik modul skal læses om
 [x] Skrive projektbeskrivelse 
+[x] strøm
 
 ### In progress 
 [ ] Oplæsning på diverse programmeringsprog ifht. projektet 
@@ -28,5 +29,6 @@ Afleveres d. 4. Maj 2023
 [ ] Skrive synopsis 
 [ ] Udvikle produktet
 [ ] Blive færdig med termodynamik delen 
+[ ] Blive færdig med Bevægelse delen
 
 ### Icebox 
