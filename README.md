@@ -27,4 +27,6 @@ Afleveres d. 4. Maj 2023
 [ ] Skrive projektbeskrivelse 
 [ ] Skrive synopsis 
 [ ] Udvikle produktet
+[ ] Blive færdig med termodynamik delen 
+
 ### Icebox 
