@@ -17,6 +17,7 @@ Afleveres d. 4. Maj 2023
 [x] Brainstorm over valg af projekt 
 [ ] Hvilke formler vil vi bruge 
 [ ] Matematik modul skal læses om
+[x] Skrive projektbeskrivelse 
 
 ### In progress 
 [ ] Oplæsning på diverse programmeringsprog ifht. projektet 
@@ -24,7 +25,6 @@ Afleveres d. 4. Maj 2023
 
 ### Todo
 [ ] Opdelt og uddeligeret arbejdsopgaver 
-[ ] Skrive projektbeskrivelse 
 [ ] Skrive synopsis 
 [ ] Udvikle produktet
 [ ] Blive færdig med termodynamik delen 
