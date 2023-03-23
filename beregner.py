@@ -1,6 +1,6 @@
 import math
 
-
+print('Hvad vil du finde inden for strøm')
 findeUdAf = input()
 
 if findeUdAf == 'U' or 'u' or 'Spændingsforskellen' or 'spændingsforskellen':
@@ -86,7 +86,7 @@ if findeUdAf == 'I' or 'i' or 'Strømstyrke' or 'strømstyrke' or 'Strømstyrken
    
 
 if findeUdAf == 'P' or 'p' or 'Effekt' or 'effekt':
-    print('Du vil finde Effekten (I).')
+    print('Du vil finde Effekten (P).')
     print('Hvis du kender strømstyrken (I) og spædningsforskellen (U) skriv 1')
     print('Hvis du kender strømstyrken (I) og  resistansen (R)  skriv 2')
     option = input()
@@ -95,16 +95,16 @@ if findeUdAf == 'P' or 'p' or 'Effekt' or 'effekt':
         I = input()
         print('Hvad er spændingsforskellen i volt?')
         U = input()
-        I= int(U) / int(R)
+        P= int(U) * int(I)
         
-        print('Når resistansen er ' + str(I) + ' ohm, og spændingsforskellen er ' + str(U) + ' volt, er strømstyrken ' + str(I) + ' ampere')
+        print('Når strømstyrken er ' + str(I) + ' ampere, og spændingsforskellen er ' + str(U) + ' volt, er effekten ' + str(P) + ' watt')
     
     if option == '2':
-        print('Hvad er spædningsforskellen i volt')
-        U = input()
-        print('Hvad er effekten i watt')
-        P = input()
-        I= int(P) / int(U)
+        print('Hvad er resistansen i ohm')
+        R = input()
+        print('Hvad er strømstyrken i ampere')
+        I = input()
+        P= int(R) * 
         
         print('Når spædningsforskellen er ' + str(U) + ' volt, og effekten er ' + str(P) + ' watt, er strømstyrken ' + str(I) + ' ampere')
 
