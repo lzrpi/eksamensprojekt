@@ -104,7 +104,7 @@ if findeUdAf == 'P' or 'p' or 'Effekt' or 'effekt':
         R = input()
         print('Hvad er strømstyrken i ampere')
         I = input()
-        P= int(R) * 
+        P= int(R) * int(I)**2
         
-        print('Når spædningsforskellen er ' + str(U) + ' volt, og effekten er ' + str(P) + ' watt, er strømstyrken ' + str(I) + ' ampere')
+        print('Når resistansen er ' + str(R) + ' ohm, og strømstyrken er ' + str(I) + ' ampere, er strømstyrken ' + str(P) + ' watt')
 
