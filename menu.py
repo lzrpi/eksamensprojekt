@@ -50,9 +50,20 @@ if emne_valg == '2':
         tryk_væske=input() 
         print("højden (h)")
         højde=input()
-        densitet=float(tryk_væske) / 9.82 * float(højde)
+        densitet=float(tryk_væske) / (9.82 * float(højde))
         print("Beregningen ser ud som følgende rho= " + str(tryk_væske)+ " Pa / 9.82 N/kg * " + str(højde) + " m")
         print("Densiteten i væsken bliver dermed " + str(densitet) + " kg/m^3")
+    if værdi_termo == '3':
+        print("For at finde højden af væskesøjlen skal h isoleres i følgende formel p=rho*g*h")
+        print("Den isolerede formel ser ud som følgende: h=P/g*rho")
+        print("Indtast dine kendte værdier")
+        print("Tryk i væsken (P)")
+        tryk_væske = input()
+        print("Densiteten rho")
+        densitet = input()
+        væske_højde = float(tryk_væske) / (9.82 * float(densitet))
+        print("Beregningen ser ud som følgende h= " + str(tryk_væske)+ " Pa / 9.82 N/kg * " + str(densitet) + " m^3/ kg")
+        print("Højden af væskes søjlen bliver dermed " + str(væske_højde) + " m")
 
 else:
     exit()
