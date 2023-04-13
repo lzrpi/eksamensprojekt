@@ -12,6 +12,7 @@ sMuligheder=['s','S','Strækning','strækning']
 tMuligheder=['t','T','tid','Tid']
 aMuligheder=['a','A','Acceleration','acceleration']
 
+
 if findeUdAf in uMuligheder:
     print('Du vil finde Spændingsforskellen (U).')
     print('Hvis du kender strømstyrken (I) og effekten (P) skriv 1')
@@ -152,5 +153,36 @@ if findeUdAf in sMuligheder:
 
     print('Når hastigheden er ' + str(v) + ' m/s, og tiden er ' + str(t) + ' sekunder, er strækningen ' + str(s) + ' meter')
 
+if findeUdAf in tMuligheder:
+    print('Du vil finde tiden (t).')
+    print('Hvis du kender strækningen (s) og hastigheden (v) skriv 1')
+    print('Hvis du kender hastigheden (v) og accelerationen (a))  skriv 2')
+    option = input()
+    if option == '1':
+        print('Hvad er strækningen i meter?')
+        s = input()
+        print('Hvad er hastigheden i m/s?')
+        v = input()
+        t= int(s) / int(v)
+        
+        print('Når strækningen er ' + str(s) + ' meter, og hastiheden er ' + str(v) + ' m/s, er tiden ' + str(t) + ' s')
+    
+    if option == '2':
+        print('Hvad er hastigheden i m/s?')
+        v = input()
+        print('Hvad er accelerationen i m/s^2?')
+        a = input()
+        t= int(v) / int(a)
+        
+        print('Når accelerationen er ' + str(a) + ' m/s^2, og tiden er ' + str(t) + ' sekunder, er hastigheden ' + str(v) + ' m/s')
 
 
+if findeUdAf in aMuligheder:
+    print('Du vil finde stækningen (a).')
+    print('Hvad er hastigheden i m/s?')
+    v = input()
+    print('Hvad er tiden i sekunder?')
+    t = input()
+    a = int(v) / int(t)
+
+    print('Når hastigheden er ' + str(v) + ' m/s, og tiden er ' + str(t) + ' sekunder, er strækningen ' + str(s) + ' meter')
