@@ -64,6 +64,6 @@ if emne_valg == '2':
         væske_højde = float(tryk_væske) / (9.82 * float(densitet))
         print("Beregningen ser ud som følgende h= " + str(tryk_væske)+ " Pa / 9.82 N/kg * " + str(densitet) + " m^3/ kg")
         print("Højden af væskes søjlen bliver dermed " + str(væske_højde) + " m")
-
+    
 else:
     exit()
