@@ -38,6 +38,7 @@ Afleveres d. 4. Maj 2023
 [ ] Udvikle produktet
 <<<<<<< HEAD
 [ ] Få lavet loop og refering til model 
+[ ] Spørg rasmun om origin funktion samt ukorrekte inputs 
 =======
 [ ] Blive færdig med termodynamik delen 
 [ ] Blive færdig med Bevægelse delen
