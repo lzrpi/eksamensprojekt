@@ -178,11 +178,11 @@ if findeUdAf in tMuligheder:
 
 
 if findeUdAf in aMuligheder:
-    print('Du vil finde stækningen (a).')
+    print('Du vil finde acceleration (a).')
     print('Hvad er hastigheden i m/s?')
     v = input()
     print('Hvad er tiden i sekunder?')
     t = input()
     a = int(v) / int(t)
 
-    print('Når hastigheden er ' + str(v) + ' m/s, og tiden er ' + str(t) + ' sekunder, er strækningen ' + str(s) + ' meter')
+    print('Når hastigheden er ' + str(v) + ' m/s, og tiden er ' + str(t) + ' sekunder, er accelerationen ' + str(a) + ' m/s^2')
