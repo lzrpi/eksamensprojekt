@@ -30,12 +30,12 @@ Afleveres d. 4. Maj 2023
 [ ] Menu delen skal lægges an 
 [ ] Blive færdig med termodynamik delen 
 [ ] Læse op på funktioner og arbejde på at få defineret
+[ ] Udvikle produktet
+[ ] Skrive synopsis 
 
 ### Todo
 [ ] Opdelt og uddeligeret arbejdsopgaver 
 [ ] Skrive projektbeskrivelse 
-[ ] Skrive synopsis 
-[ ] Udvikle produktet
 <<<<<<< HEAD
 [ ] Få lavet loop og refering til model 
 [ ] Spørg rasmun om origin funktion samt ukorrekte inputs 
