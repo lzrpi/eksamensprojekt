@@ -189,5 +189,5 @@ if findeUdAf in aMuligheder:
 
 
 else:
-    print('Du har ikke givet et brugbart stykke infomation')
+    print('Du har givet et forkert input')
     
