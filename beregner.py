@@ -186,3 +186,8 @@ if findeUdAf in aMuligheder:
     a = int(v) / int(t)
 
     print('Når hastigheden er ' + str(v) + ' m/s, og tiden er ' + str(t) + ' sekunder, er accelerationen ' + str(a) + ' m/s^2')
+
+
+else:
+    print('Du har ikke givet et brugbart stykke infomation')
+    
