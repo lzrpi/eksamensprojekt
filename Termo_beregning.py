@@ -35,4 +35,9 @@ def termo_beregning():
         print(A)
     
     break
-    
+    def origin():
+      back_or_exit=vælg_emne("Hvis du gerne vil tilbage til forsiden tast 1 \n Hvis du gerne vil aflsutte programmet tast 2")
+      if back_or_exit == 1:
+          continue
+      if back_or_exit == 2:
+          break 
