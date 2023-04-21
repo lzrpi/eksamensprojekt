@@ -151,7 +151,7 @@ if findeUdAf in sMuligheder:
     t = input()
     s = int(v) * int(t)
 
-    print('Når hastigheden er ' + str(v) + ' m/s, og tiden er ' + str(t) + ' sekunder, er strækningen ' + str(s) + ' meter')
+    print(f'Når hastigheden er {v} m/s, og tiden er {t} sekunder, er strækningen ' + str(s) + ' meter')
 
 if findeUdAf in tMuligheder:
     print('Du vil finde tiden (t).')
@@ -165,7 +165,7 @@ if findeUdAf in tMuligheder:
         v = input()
         t= int(s) / int(v)
         
-        print('Når strækningen er ' + str(s) + ' meter, og hastiheden er ' + str(v) + ' m/s, er tiden ' + str(t) + ' s')
+        print(f'Når strækningen er {s} meter, og hastiheden er {v} m/s, er tiden {t} s')
     
     if option == '2':
         print('Hvad er hastigheden i m/s?')
@@ -174,7 +174,7 @@ if findeUdAf in tMuligheder:
         a = input()
         t= int(v) / int(a)
         
-        print('Når accelerationen er ' + str(a) + ' m/s^2, og tiden er ' + str(t) + ' sekunder, er hastigheden ' + str(v) + ' m/s')
+        print(f'Når accelerationen er {a} m/s^2, og tiden er {t} sekunder, er hastigheden {v} m/s')
 
 
 if findeUdAf in aMuligheder:
@@ -185,7 +185,7 @@ if findeUdAf in aMuligheder:
     t = input()
     a = int(v) / int(t)
 
-    print('Når hastigheden er ' + str(v) + ' m/s, og tiden er ' + str(t) + ' sekunder, er accelerationen ' + str(a) + ' m/s^2')
+    print(f'Når hastigheden er {v} m/s, og tiden er {t} sekunder, er accelerationen {a} m/s^2')
 
 
 else:
