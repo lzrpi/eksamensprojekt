@@ -188,7 +188,7 @@ def bevægelse_beregning():
           t = input()
           v= int(s) / int(t)
           
-          print('Når strækningen er ' + str(s) + ' meter, og tiden er ' + str(t) + ' sekunder, er hastigheden ' + str(v) + ' m/s')
+          print(f"Når strækningen er {s} meter, og tiden er {t} sekunder, er hastigheden {v} m/s")
       
       if option == '2':
           print('Hvad er accelerationen i m/s^2?')
@@ -197,7 +197,7 @@ def bevægelse_beregning():
           t = input()
           v= int(a) * int(t)
           
-          print('Når accelerationen er ' + str(a) + ' m/s^2, og tiden er ' + str(t) + ' sekunder, er hastigheden ' + str(v) + ' m/s')
+          print(f"Når accelerationen er {a} m/s^2, og tiden er {t} sekunder, er hastigheden {v} m/s")
 
 
   if findeUdAf in sMuligheder:
@@ -208,7 +208,7 @@ def bevægelse_beregning():
       t = input()
       s = int(v) * int(t)
 
-      print(f'Når hastigheden er {v} m/s, og tiden er {t} sekunder, er strækningen ' + str(s) + ' meter')
+      print(f"Når hastigheden er {v} m/s, og tiden er {t} sekunder, er strækningen {s} meter")
 
   if findeUdAf in tMuligheder:
       print('Du vil finde tiden (t).')
