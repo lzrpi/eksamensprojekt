@@ -23,7 +23,7 @@ def welcome():
 
 #Funktion til beregning af strøm 
 def strøm_beregning():
-    print('Hvad vil du finde inden for strøm eller bævegelse')
+    print('Hvad vil du finde inden for strøm')
     findeUdAf = input()
     if findeUdAf in uMuligheder:
         print('Du vil finde Spændingsforskellen (U).')
