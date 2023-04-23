@@ -154,7 +154,7 @@ def termo_beregning():
         kraft = spørg_efter_værdier("Indtast kraft i newton")
         areal = spørg_efter_værdier("Indtast areal i m^2")
         P = beregn_tryk (kraft , areal)
-        print("Tryk er fundet ved P=F/A , beregningen ser ud som følgende:" + str(P) + " = " + str(kraft) + "/" + str(areal))
+        print(f"Tryk er fundet ved P=F/A , beregningen ser ud som følgende: {P} = {kraft} / {areal}")
     if emne_valg == 2: 
         areal = spørg_efter_værdier("Indtast areal i m^2")
         tryk = spørg_efter_værdier("Indtast tryk i pascal")
@@ -251,7 +251,6 @@ def wrong_input():
 while True: 
     welcome()
     main_topic = vælg_emne("Indtast nu 1, 2 eller 3")
-    # wrong_input()
     if main_topic == 1 : 
       strøm_beregning()
       
