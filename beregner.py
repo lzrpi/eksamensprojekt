@@ -25,7 +25,7 @@ if findeUdAf in uMuligheder:
         W = input()
         U= int(W) / int(I)
         
-        print('Når strømstyrken er ' + str(I) + ' ampere, og effekten er ' + str(W) + ' watt, er spændingsforskellen ' + str(U) + ' volt')
+        print(f'Når strømstyrken er {I} ampere, og effekten er {W} watt, er spændingsforskellen {U} volt')
     
     if option == '2':
         print('Hvad er strømstyrken i ampere?')
@@ -34,7 +34,7 @@ if findeUdAf in uMuligheder:
         R = input()
         U= int(I) * int(R)
         
-        print('Når strømstyrken er ' + str(I) + ' ampere, og resistansen er ' + str(R) + ' ohm, er spændingsforskellen ' + str(U) + ' volt')
+        print(f'Når strømstyrken er {I} ampere, og resistansen er {R} ohm, er spændingsforskellen {U} volt')
     
 
 if findeUdAf in rMuligheder:
@@ -49,7 +49,7 @@ if findeUdAf in rMuligheder:
         U = input()
         R= int(U) / int(I)
         
-        print('Når strømstyrken er ' + str(I) + ' ampere, og spændingsforskellen er ' + str(U) + ' volt, er resistansen ' + str(R) + ' ohm')
+        print(f'Når strømstyrken er {I} ampere, og spændingsforskellen er {U} volt, er resistansen {R} ohm')
     
     if option == '2':
         print('Hvad er strømstyrken i ampere?')
@@ -58,7 +58,7 @@ if findeUdAf in rMuligheder:
         P = input()
         R= int(P) / (int(I) ** 2)
         
-        print('Når strømstyrken er ' + str(I) + ' ampere, og effekten er ' + str(P) + ' watt, er resistansen ' + str(R) + ' volt')
+        print(f'Når strømstyrken er {I} ampere, og effekten er {P} watt, er resistansen {R} volt')
     
 
 if findeUdAf in iMuligheder:
@@ -74,7 +74,7 @@ if findeUdAf in iMuligheder:
         U = input()
         I= int(U) / int(R)
         
-        print('Når resistansen er ' + str(I) + ' ohm, og spændingsforskellen er ' + str(U) + ' volt, er strømstyrken ' + str(I) + ' ampere')
+        print(f'Når resistansen er {I} ohm, og spændingsforskellen er {U} volt, er strømstyrken {I} ampere')
     
     if option == '2':
         print('Hvad er spædningsforskellen i volt')
@@ -83,7 +83,7 @@ if findeUdAf in iMuligheder:
         P = input()
         I= int(P) / int(U)
         
-        print('Når spædningsforskellen er ' + str(U) + ' volt, og effekten er ' + str(P) + ' watt, er strømstyrken ' + str(I) + ' ampere')
+        print(f'Når spædningsforskellen er {U} volt, og effekten er {P} watt, er strømstyrken {I} ampere')
     
     if option == '3':
         print('Hvad er resistansen i ohm?')
@@ -92,7 +92,7 @@ if findeUdAf in iMuligheder:
         P = input()
         I= math.sqrt((int(P) / int(R)))
         
-        print('Når resistansen er ' + str(R) + ' ohm, og effekten er ' + str(P) + ' watt, er strømstyrken ' + str(I) + ' ampere')
+        print(f'Når resistansen er {R} ohm, og effekten er {P} watt, er strømstyrken {I} ampere')
    
 
 if findeUdAf in pMuligheder:
@@ -107,7 +107,7 @@ if findeUdAf in pMuligheder:
         U = input()
         P= int(U) * int(I)
         
-        print('Når strømstyrken er ' + str(I) + ' ampere, og spændingsforskellen er ' + str(U) + ' volt, er effekten ' + str(P) + ' watt')
+        print(f'Når strømstyrken er {I} ampere, og spændingsforskellen er {U} volt, er effekten {P} watt')
     
     if option == '2':
         print('Hvad er resistansen i ohm')
@@ -116,7 +116,7 @@ if findeUdAf in pMuligheder:
         I = input()
         P= int(R) * int(I)**2
         
-        print('Når resistansen er ' + str(R) + ' ohm, og strømstyrken er ' + str(I) + ' ampere, er strømstyrken ' + str(P) + ' watt')
+        print(f'Når resistansen er {R} ohm, og strømstyrken er {I} ampere, er strømstyrken {P} watt')
 
 
 if findeUdAf in vMuligheder:
@@ -131,7 +131,7 @@ if findeUdAf in vMuligheder:
         t = input()
         v= int(s) / int(t)
         
-        print('Når strækningen er ' + str(s) + ' meter, og tiden er ' + str(t) + ' sekunder, er hastigheden ' + str(v) + ' m/s')
+        print(f'Når strækningen er {s} meter, og tiden er {t} sekunder, er hastigheden {v} m/s')
     
     if option == '2':
         print('Hvad er accelerationen i m/s^2?')
@@ -140,7 +140,7 @@ if findeUdAf in vMuligheder:
         t = input()
         v= int(a) * int(t)
         
-        print('Når accelerationen er ' + str(a) + ' m/s^2, og tiden er ' + str(t) + ' sekunder, er hastigheden ' + str(v) + ' m/s')
+        print(f'Når accelerationen er {a} m/s^2, og tiden er {t} sekunder, er hastigheden {v} m/s')
 
 
 if findeUdAf in sMuligheder:
@@ -151,7 +151,7 @@ if findeUdAf in sMuligheder:
     t = input()
     s = int(v) * int(t)
 
-    print(f'Når hastigheden er {v} m/s, og tiden er {t} sekunder, er strækningen ' + str(s) + ' meter')
+    print(f'Når hastigheden er {v} m/s, og tiden er {t} sekunder, er strækningen {s) + ' meter')
 
 if findeUdAf in tMuligheder:
     print('Du vil finde tiden (t).')
