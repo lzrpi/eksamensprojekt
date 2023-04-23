@@ -34,10 +34,10 @@ def strøm_beregning():
             print('Hvad er strømstyrken i ampere?')
             I = input()
             print('Hvad er effekten i watt?')
-            W = input()
-            U= float(W) / float(I)
+            P = input()
+            U= float(P) / float(I)
             
-            print('Når strømstyrken er ' + str(I) + ' ampere, og effekten er ' + str(W) + ' watt, er spændingsforskellen ' + str(U) + ' volt')
+            print(f'Når strømstyrken er {I} ampere, og effekten er {P} watt, er spændingsforskellen {U} volt')
         
         if option == '2':
             print('Hvad er strømstyrken i ampere?')
@@ -46,7 +46,7 @@ def strøm_beregning():
             R = input()
             U= float(I) * float(R)
             
-            print('Når strømstyrken er ' + str(I) + ' ampere, og resistansen er ' + str(R) + ' ohm, er spændingsforskellen ' + str(U) + ' volt')
+            print(f'Når strømstyrken er {I} ampere, og resistansen er {R} ohm, er spændingsforskellen {U} volt')
         
 
     if findeUdAf in rMuligheder:
@@ -61,7 +61,7 @@ def strøm_beregning():
             U = input()
             R= float(U) / float(I)
             
-            print('Når strømstyrken er ' + str(I) + ' ampere, og spændingsforskellen er ' + str(U) + ' volt, er resistansen ' + str(R) + ' ohm')
+            print(f'Når strømstyrken er {I} ampere, og spændingsforskellen er {U} volt, er resistansen {R} ohm')
         
         if option == '2':
             print('Hvad er strømstyrken i ampere?')
@@ -70,7 +70,7 @@ def strøm_beregning():
             P = input()
             R= float(P) / (float(I) ** 2)
             
-            print('Når strømstyrken er ' + str(I) + ' ampere, og effekten er ' + str(P) + ' watt, er resistansen ' + str(R) + ' volt')
+            print(f'Når strømstyrken er {I} ampere, og effekten er {P} watt, er resistansen {R} volt')
         
 
     if findeUdAf in iMuligheder:
@@ -86,7 +86,7 @@ def strøm_beregning():
             U = input()
             I= float(U) / float(R)
             
-            print('Når resistansen er ' + str(I) + ' ohm, og spændingsforskellen er ' + str(U) + ' volt, er strømstyrken ' + str(I) + ' ampere')
+            print(f'Når resistansen er {I} ohm, og spændingsforskellen er {U} volt, er strømstyrken {I} ampere')
         
         if option == '2':
             print('Hvad er spædningsforskellen i volt')
@@ -95,7 +95,7 @@ def strøm_beregning():
             P = input()
             I= float(P) / float(U)
             
-            print('Når spædningsforskellen er ' + str(U) + ' volt, og effekten er ' + str(P) + ' watt, er strømstyrken ' + str(I) + ' ampere')
+            print(f'Når spædningsforskellen er {U} volt, og effekten er {P} watt, er strømstyrken {I} ampere')
         
         if option == '3':
             print('Hvad er resistansen i ohm?')
@@ -104,7 +104,7 @@ def strøm_beregning():
             P = input()
             I= math.sqrt((float(P) / float(R)))
             
-            print('Når resistansen er ' + str(R) + ' ohm, og effekten er ' + str(P) + ' watt, er strømstyrken ' + str(I) + ' ampere')
+            print(f'Når resistansen er {R} ohm, og effekten er {P} watt, er strømstyrken {I} ampere')
     
 
     if findeUdAf in pMuligheder:
@@ -119,7 +119,7 @@ def strøm_beregning():
             U = input()
             P= float(U) * float(I)
             
-            print('Når strømstyrken er ' + str(I) + ' ampere, og spændingsforskellen er ' + str(U) + ' volt, er effekten ' + str(P) + ' watt')
+            print(f'Når strømstyrken er {I} ampere, og spændingsforskellen er {U} volt, er effekten {P} watt')
         
         if option == '2':
             print('Hvad er resistansen i ohm')
@@ -128,7 +128,7 @@ def strøm_beregning():
             I = input()
             P= float(R) * float(I)**2
             
-            print('Når resistansen er ' + str(R) + ' ohm, og strømstyrken er ' + str(I) + ' ampere, er strømstyrken ' + str(P) + ' watt')
+            print(f'Når resistansen er {R} ohm, og strømstyrken er {I} ampere, er strømstyrken {P} watt')
 
 
 #Funktioner til termodynamik beregning. 

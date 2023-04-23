@@ -22,10 +22,10 @@ if findeUdAf in uMuligheder:
         print('Hvad er strømstyrken i ampere?')
         I = input()
         print('Hvad er effekten i watt?')
-        W = input()
-        U= int(W) / int(I)
+        P = input()
+        U= int(P) / int(I)
         
-        print(f'Når strømstyrken er {I} ampere, og effekten er {W} watt, er spændingsforskellen {U} volt')
+        print(f'Når strømstyrken er {I} ampere, og effekten er {P} watt, er spændingsforskellen {U} volt')
     
     if option == '2':
         print('Hvad er strømstyrken i ampere?')
