@@ -35,7 +35,7 @@ def strøm_beregning():
             I = input()
             print('Hvad er effekten i watt?')
             W = input()
-            U= int(W) / int(I)
+            U= float(W) / float(I)
             
             print('Når strømstyrken er ' + str(I) + ' ampere, og effekten er ' + str(W) + ' watt, er spændingsforskellen ' + str(U) + ' volt')
         
@@ -44,7 +44,7 @@ def strøm_beregning():
             I = input()
             print('Hvad er resistansen i ohm?')
             R = input()
-            U= int(I) * int(R)
+            U= float(I) * float(R)
             
             print('Når strømstyrken er ' + str(I) + ' ampere, og resistansen er ' + str(R) + ' ohm, er spændingsforskellen ' + str(U) + ' volt')
         
@@ -59,7 +59,7 @@ def strøm_beregning():
             I = input()
             print('Hvad er spændingsforskellen i volt?')
             U = input()
-            R= int(U) / int(I)
+            R= float(U) / float(I)
             
             print('Når strømstyrken er ' + str(I) + ' ampere, og spændingsforskellen er ' + str(U) + ' volt, er resistansen ' + str(R) + ' ohm')
         
@@ -68,7 +68,7 @@ def strøm_beregning():
             I = input()
             print('Hvad er effekten i watt?')
             P = input()
-            R= int(P) / (int(I) ** 2)
+            R= float(P) / (float(I) ** 2)
             
             print('Når strømstyrken er ' + str(I) + ' ampere, og effekten er ' + str(P) + ' watt, er resistansen ' + str(R) + ' volt')
         
@@ -84,7 +84,7 @@ def strøm_beregning():
             R = input()
             print('Hvad er spændingsforskellen i volt?')
             U = input()
-            I= int(U) / int(R)
+            I= float(U) / float(R)
             
             print('Når resistansen er ' + str(I) + ' ohm, og spændingsforskellen er ' + str(U) + ' volt, er strømstyrken ' + str(I) + ' ampere')
         
@@ -93,7 +93,7 @@ def strøm_beregning():
             U = input()
             print('Hvad er effekten i watt')
             P = input()
-            I= int(P) / int(U)
+            I= float(P) / float(U)
             
             print('Når spædningsforskellen er ' + str(U) + ' volt, og effekten er ' + str(P) + ' watt, er strømstyrken ' + str(I) + ' ampere')
         
@@ -102,7 +102,7 @@ def strøm_beregning():
             R = input()
             print('Hvad er effekten i watt?')
             P = input()
-            I= math.sqrt((int(P) / int(R)))
+            I= math.sqrt((float(P) / float(R)))
             
             print('Når resistansen er ' + str(R) + ' ohm, og effekten er ' + str(P) + ' watt, er strømstyrken ' + str(I) + ' ampere')
     
@@ -117,7 +117,7 @@ def strøm_beregning():
             I = input()
             print('Hvad er spændingsforskellen i volt?')
             U = input()
-            P= int(U) * int(I)
+            P= float(U) * float(I)
             
             print('Når strømstyrken er ' + str(I) + ' ampere, og spændingsforskellen er ' + str(U) + ' volt, er effekten ' + str(P) + ' watt')
         
@@ -126,7 +126,7 @@ def strøm_beregning():
             R = input()
             print('Hvad er strømstyrken i ampere')
             I = input()
-            P= int(R) * int(I)**2
+            P= float(R) * float(I)**2
             
             print('Når resistansen er ' + str(R) + ' ohm, og strømstyrken er ' + str(I) + ' ampere, er strømstyrken ' + str(P) + ' watt')
 
@@ -186,7 +186,7 @@ def bevægelse_beregning():
           s = input()
           print('Hvad er tiden i sekunder?')
           t = input()
-          v= int(s) / int(t)
+          v= float(s) / float(t)
           
           print(f"Når strækningen er {s} meter, og tiden er {t} sekunder, er hastigheden {v} m/s")
       
@@ -195,7 +195,7 @@ def bevægelse_beregning():
           a = input()
           print('Hvad er tiden i sekunder?')
           t = input()
-          v= int(a) * int(t)
+          v= float(a) * float(t)
           
           print(f"Når accelerationen er {a} m/s^2, og tiden er {t} sekunder, er hastigheden {v} m/s")
 
@@ -206,7 +206,7 @@ def bevægelse_beregning():
       v = input()
       print('Hvad er tiden i sekunder?')
       t = input()
-      s = int(v) * int(t)
+      s = float(v) * float(t)
 
       print(f"Når hastigheden er {v} m/s, og tiden er {t} sekunder, er strækningen {s} meter")
 
@@ -220,7 +220,7 @@ def bevægelse_beregning():
           s = input()
           print('Hvad er hastigheden i m/s?')
           v = input()
-          t= int(s) / int(v)
+          t= float(s) / float(v)
           
           print(f'Når strækningen er {s} meter, og hastiheden er {v} m/s, er tiden {t} s')
       
@@ -229,7 +229,7 @@ def bevægelse_beregning():
           v = input()
           print('Hvad er accelerationen i m/s^2?')
           a = input()
-          t= int(v) / int(a)
+          t= float(v) / float(a)
           
           print(f'Når accelerationen er {a} m/s^2, og tiden er {t} sekunder, er hastigheden {v} m/s')
 
@@ -240,7 +240,7 @@ def bevægelse_beregning():
       v = input()
       print('Hvad er tiden i sekunder?')
       t = input()
-      a = int(v) / int(t)
+      a = float(v) / float(t)
 
       print(f'Når hastigheden er {v} m/s, og tiden er {t} sekunder, er accelerationen {a} m/s^2')
 
