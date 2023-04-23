@@ -34,17 +34,10 @@ def strøm_beregning():
             print('Hvad er strømstyrken i ampere?')
             I = input()
             print('Hvad er effekten i watt?')
-<<<<<<< HEAD
             P = input()
             U= float(P) / float(I)
             
             print(f'Når strømstyrken er {I} ampere, og effekten er {P} watt, er spændingsforskellen {U} volt')
-=======
-            W = input()
-            U= int(W) / int(I)
-            
-            print(f'Når strømstyrken er {I} ampere, og effekten er {W} watt, er spændingsforskellen {U} volt')
->>>>>>> cb478cda3573320ab9df4f8a1c27c7cf1283a47a
         
         if option == '2':
             print('Hvad er strømstyrken i ampere?')
@@ -112,11 +105,7 @@ def strøm_beregning():
             I= math.sqrt((int(P) / int(R)))
             
             print(f'Når resistansen er {R} ohm, og effekten er {P} watt, er strømstyrken {I} ampere')
-<<<<<<< HEAD
     
-=======
-      
->>>>>>> cb478cda3573320ab9df4f8a1c27c7cf1283a47a
 
     elif findeUdAf in pMuligheder:
         print('Du vil finde Effekten (P).')
@@ -140,13 +129,8 @@ def strøm_beregning():
             P= int(R) * int(I)**2
             
             print(f'Når resistansen er {R} ohm, og strømstyrken er {I} ampere, er strømstyrken {P} watt')
-<<<<<<< HEAD
-
-
-=======
-    else :
-        print("Du har givet forkert input")
->>>>>>> cb478cda3573320ab9df4f8a1c27c7cf1283a47a
+        else :
+          print("Du har givet forkert input")
 #Funktioner til termodynamik beregning. 
 def spørg_efter_værdier(message):
   værdi = input(f"{message} : ")
