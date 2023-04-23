@@ -34,22 +34,29 @@ def strøm_beregning():
             print('Hvad er strømstyrken i ampere?')
             I = input()
             print('Hvad er effekten i watt?')
+<<<<<<< HEAD
             P = input()
             U= float(P) / float(I)
             
             print(f'Når strømstyrken er {I} ampere, og effekten er {P} watt, er spændingsforskellen {U} volt')
+=======
+            W = input()
+            U= int(W) / int(I)
+            
+            print(f'Når strømstyrken er {I} ampere, og effekten er {W} watt, er spændingsforskellen {U} volt')
+>>>>>>> cb478cda3573320ab9df4f8a1c27c7cf1283a47a
         
         if option == '2':
             print('Hvad er strømstyrken i ampere?')
             I = input()
             print('Hvad er resistansen i ohm?')
             R = input()
-            U= float(I) * float(R)
+            U= int(I) * int(R)
             
             print(f'Når strømstyrken er {I} ampere, og resistansen er {R} ohm, er spændingsforskellen {U} volt')
         
 
-    if findeUdAf in rMuligheder:
+    elif findeUdAf in rMuligheder:
         print('Du vil finde Resistansen (R).')
         print('Hvis du kender strømstyrken (I) og spædningsforskellen (U) skriv 1')
         print('Hvis du kender strømstyrken (I) og  effekten (P)  skriv 2')
@@ -59,7 +66,7 @@ def strøm_beregning():
             I = input()
             print('Hvad er spændingsforskellen i volt?')
             U = input()
-            R= float(U) / float(I)
+            R= int(U) / int(I)
             
             print(f'Når strømstyrken er {I} ampere, og spændingsforskellen er {U} volt, er resistansen {R} ohm')
         
@@ -68,12 +75,12 @@ def strøm_beregning():
             I = input()
             print('Hvad er effekten i watt?')
             P = input()
-            R= float(P) / (float(I) ** 2)
+            R= int(P) / (int(I) ** 2)
             
             print(f'Når strømstyrken er {I} ampere, og effekten er {P} watt, er resistansen {R} volt')
         
 
-    if findeUdAf in iMuligheder:
+    elif findeUdAf in iMuligheder:
         print('Du vil finde Strømstyrken (I).')
         print('Hvis du kender resistansen (R) og spædningsforskellen (U) skriv 1')
         print('Hvis du kender spædningsforskellen (U) og  effekten (P)  skriv 2')
@@ -84,7 +91,7 @@ def strøm_beregning():
             R = input()
             print('Hvad er spændingsforskellen i volt?')
             U = input()
-            I= float(U) / float(R)
+            I= int(U) / int(R)
             
             print(f'Når resistansen er {I} ohm, og spændingsforskellen er {U} volt, er strømstyrken {I} ampere')
         
@@ -93,7 +100,7 @@ def strøm_beregning():
             U = input()
             print('Hvad er effekten i watt')
             P = input()
-            I= float(P) / float(U)
+            I= int(P) / int(U)
             
             print(f'Når spædningsforskellen er {U} volt, og effekten er {P} watt, er strømstyrken {I} ampere')
         
@@ -102,12 +109,16 @@ def strøm_beregning():
             R = input()
             print('Hvad er effekten i watt?')
             P = input()
-            I= math.sqrt((float(P) / float(R)))
+            I= math.sqrt((int(P) / int(R)))
             
             print(f'Når resistansen er {R} ohm, og effekten er {P} watt, er strømstyrken {I} ampere')
+<<<<<<< HEAD
     
+=======
+      
+>>>>>>> cb478cda3573320ab9df4f8a1c27c7cf1283a47a
 
-    if findeUdAf in pMuligheder:
+    elif findeUdAf in pMuligheder:
         print('Du vil finde Effekten (P).')
         print('Hvis du kender strømstyrken (I) og spædningsforskellen (U) skriv 1')
         print('Hvis du kender strømstyrken (I) og  resistansen (R)  skriv 2')
@@ -117,7 +128,7 @@ def strøm_beregning():
             I = input()
             print('Hvad er spændingsforskellen i volt?')
             U = input()
-            P= float(U) * float(I)
+            P= int(U) * int(I)
             
             print(f'Når strømstyrken er {I} ampere, og spændingsforskellen er {U} volt, er effekten {P} watt')
         
@@ -126,11 +137,16 @@ def strøm_beregning():
             R = input()
             print('Hvad er strømstyrken i ampere')
             I = input()
-            P= float(R) * float(I)**2
+            P= int(R) * int(I)**2
             
             print(f'Når resistansen er {R} ohm, og strømstyrken er {I} ampere, er strømstyrken {P} watt')
+<<<<<<< HEAD
 
 
+=======
+    else :
+        print("Du har givet forkert input")
+>>>>>>> cb478cda3573320ab9df4f8a1c27c7cf1283a47a
 #Funktioner til termodynamik beregning. 
 def spørg_efter_værdier(message):
   værdi = input(f"{message} : ")
@@ -200,7 +216,7 @@ def bevægelse_beregning():
           print(f"Når accelerationen er {a} m/s^2, og tiden er {t} sekunder, er hastigheden {v} m/s")
 
 
-  if findeUdAf in sMuligheder:
+  elif findeUdAf in sMuligheder:
       print('Du vil finde stækningen (s).')
       print('Hvad er hastigheden i m/s?')
       v = input()
@@ -210,7 +226,7 @@ def bevægelse_beregning():
 
       print(f"Når hastigheden er {v} m/s, og tiden er {t} sekunder, er strækningen {s} meter")
 
-  if findeUdAf in tMuligheder:
+  elif findeUdAf in tMuligheder:
       print('Du vil finde tiden (t).')
       print('Hvis du kender strækningen (s) og hastigheden (v) skriv 1')
       print('Hvis du kender hastigheden (v) og accelerationen (a))  skriv 2')
@@ -234,7 +250,7 @@ def bevægelse_beregning():
           print(f'Når accelerationen er {a} m/s^2, og tiden er {t} sekunder, er hastigheden {v} m/s')
 
 
-  if findeUdAf in aMuligheder:
+  elif findeUdAf in aMuligheder:
       print('Du vil finde acceleration (a).')
       print('Hvad er hastigheden i m/s?')
       v = input()
