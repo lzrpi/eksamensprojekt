@@ -151,7 +151,7 @@ if findeUdAf in sMuligheder:
     t = input()
     s = int(v) * int(t)
 
-    print(f'Når hastigheden er {v} m/s, og tiden er {t} sekunder, er strækningen {s) + ' meter')
+    print(f'Når hastigheden er {v} m/s, og tiden er {t} sekunder, er strækningen {s} meter')
 
 if findeUdAf in tMuligheder:
     print('Du vil finde tiden (t).')
