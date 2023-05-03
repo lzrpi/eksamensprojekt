@@ -44,7 +44,7 @@ def strøm_beregning():
             I = input()
             print('Hvad er resistansen i ohm?')
             R = input()
-            U= int(I) * int(R)
+            U= float(I) * float(R)
             
             print(f'Når strømstyrken er {I} ampere, og resistansen er {R} ohm, er spændingsforskellen {U} volt')
         
@@ -59,7 +59,7 @@ def strøm_beregning():
             I = input()
             print('Hvad er spændingsforskellen i volt?')
             U = input()
-            R= int(U) / int(I)
+            R= float(U) / float(I)
             
             print(f'Når strømstyrken er {I} ampere, og spændingsforskellen er {U} volt, er resistansen {R} ohm')
         
@@ -68,7 +68,7 @@ def strøm_beregning():
             I = input()
             print('Hvad er effekten i watt?')
             P = input()
-            R= int(P) / (int(I) ** 2)
+            R= float(P) / (float(I) ** 2)
             
             print(f'Når strømstyrken er {I} ampere, og effekten er {P} watt, er resistansen {R} volt')
         
@@ -84,7 +84,7 @@ def strøm_beregning():
             R = input()
             print('Hvad er spændingsforskellen i volt?')
             U = input()
-            I= int(U) / int(R)
+            I= float(U) / float(R)
             
             print(f'Når resistansen er {I} ohm, og spændingsforskellen er {U} volt, er strømstyrken {I} ampere')
         
@@ -93,7 +93,7 @@ def strøm_beregning():
             U = input()
             print('Hvad er effekten i watt')
             P = input()
-            I= int(P) / int(U)
+            I= float(P) / float(U)
             
             print(f'Når spædningsforskellen er {U} volt, og effekten er {P} watt, er strømstyrken {I} ampere')
         
@@ -102,7 +102,7 @@ def strøm_beregning():
             R = input()
             print('Hvad er effekten i watt?')
             P = input()
-            I= math.sqrt((int(P) / int(R)))
+            I= math.sqrt((float(P) / float(R)))
             
             print(f'Når resistansen er {R} ohm, og effekten er {P} watt, er strømstyrken {I} ampere')
     
@@ -117,7 +117,7 @@ def strøm_beregning():
             I = input()
             print('Hvad er spændingsforskellen i volt?')
             U = input()
-            P= int(U) * int(I)
+            P= float(U) * float(I)
             
             print(f'Når strømstyrken er {I} ampere, og spændingsforskellen er {U} volt, er effekten {P} watt')
         
@@ -126,7 +126,7 @@ def strøm_beregning():
             R = input()
             print('Hvad er strømstyrken i ampere')
             I = input()
-            P= int(R) * int(I)**2
+            P= float(R) * float(I)**2
             
             print(f'Når resistansen er {R} ohm, og strømstyrken er {I} ampere, er strømstyrken {P} watt')
         else :
@@ -156,7 +156,6 @@ def termo_beregning():
         kraft = spørg_efter_værdier("Indtast kraft i newton")
         areal = spørg_efter_værdier("Indtast areal i m^2")
         P = beregn_tryk (kraft , areal)
-        # print(P)
         print(f"Tryk er fundet ved P=F/A , beregningen ser ud som følgende: {P} Pa = {kraft} N / {areal} m^2")
     if emne_valg == 2: 
         areal = spørg_efter_værdier("Indtast areal i m^2")
