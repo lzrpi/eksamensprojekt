@@ -130,7 +130,7 @@ def strøm_beregning():
             
             print(f'Når resistansen er {R} ohm, og strømstyrken er {I} ampereer strømstyrken {P} watt. Det er beregnet med formlen P=R*I^2.')
         else :
-          print("Du har givet forkert input")
+          print("Du har givet et ugyldigt input")
 #Funktioner til termodynamik beregning. 
 def spørg_efter_værdier(message):
   værdi = input(f"{message} : ")
@@ -246,7 +246,7 @@ def bevægelse_beregning():
 
 
   else:
-      print('Du har givet et forkert input')
+      print('Du har givet et ugyldigt input')
 
     
 
