@@ -156,7 +156,6 @@ def termo_beregning():
         kraft = spørg_efter_værdier("Indtast kraft i newton")
         areal = spørg_efter_værdier("Indtast areal i m^2")
         P = beregn_tryk (kraft , areal)
-        # print(P)
         print(f"Tryk er fundet ved P=F/A , beregningen ser ud som følgende: {P} Pa = {kraft} N / {areal} m^2")
     if emne_valg == 2: 
         areal = spørg_efter_værdier("Indtast areal i m^2")
